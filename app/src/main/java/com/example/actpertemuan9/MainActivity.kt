@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.actpertemuan9.ui.theme.ActPertemuan9Theme
+import com.example.actpertemuan9.ui.viewmodel.MahasiswaApplication
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,8 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ActPertemuan9Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    MahasiswaApplication(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

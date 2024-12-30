@@ -7,6 +7,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.actpertemuan9.repository.MahasiswaRepository
+import com.example.actpertemuan9.ui.view.mahasiswa.DestinasiUpdate
 import kotlinx.coroutines.launch
 
 class UpdateViewModel(
